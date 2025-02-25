@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Тестовый набор для регресса" verbose="1">
+    <test name="Регресс">
+        <classes>
+            <class name="ru.sportmaster.testng.AddSurvivor"/>
+            <class name="ru.sportmaster.testng.AddSurvivorNull"/>
+            <class name="ru.sportmaster.testng.CalculateFoodDays"/>
+            <class name="ru.sportmaster.testng.CollectMultiplyResources"/>
+            <class name="ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers"/>
+            <class name="ru.sportmaster.testng.CollectResources"/>
+            <class name="ru.sportmaster.testng.CollectResourcesCertainScavengers"/>
+            <class name="ru.sportmaster.testng.GenerateRandomCity"/>
+            <class name="ru.sportmaster.testng.GenerateRandomResources"/>
+            <class name="ru.sportmaster.testng.GenerateRandomSurvivor"/>
+            <class name="ru.sportmaster.testng.GetAllMedic"/>
+            <class name="ru.sportmaster.testng.GetAllMedicEmpty"/>
+            <class name="ru.sportmaster.testng.GetAllSoldier"/>
+            <class name="ru.sportmaster.testng.GetAllSoldierEmpty"/>
+            <class name="ru.sportmaster.testng.GetAllWorker"/>
+            <class name="ru.sportmaster.testng.GetAllWorkerEmpty"/>
+            <class name="ru.sportmaster.testng.GetResourceWithLowestStock"/>
+            <class name="ru.sportmaster.testng.OldestSurvivor"/>
+            <class name="ru.sportmaster.testng.ReportResources"/>
+            <class name="ru.sportmaster.testng.YoungestSurvivor"/>
+        </classes>
+    </test>
+</suite>
+

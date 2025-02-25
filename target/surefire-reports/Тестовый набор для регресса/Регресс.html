@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>TestNG:  Регресс</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Регресс</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 25 16:59:07 MSK 2025</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1018 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ru.sportmaster.testng.YoungestSurvivor.checkYoungestSurvivor()'><b>checkYoungestSurvivor</b><br>Test class: ru.sportmaster.testng.YoungestSurvivor<br>Parameters: [LcourseWork2.Survivor;@1734b1a, Survivor{name='Alex Russo', age=25}</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.YoungestSurvivor@5f0a2638</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.AddSurvivorNull.testAddNullSurvivor()'><b>testAddNullSurvivor</b><br>Test class: ru.sportmaster.testng.AddSurvivorNull</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.AddSurvivorNull@5ae15</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.CollectResources.testCollectResources_WithScavengers()'><b>testCollectResources_WithScavengers</b><br>Test class: ru.sportmaster.testng.CollectResources</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.CollectResources@7f0b93b4</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllSoldier.checkGetAllSoldier()'><b>checkGetAllSoldier</b><br>Test class: ru.sportmaster.testng.GetAllSoldier</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllSoldier@4e22368c</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllSoldierEmpty.checkGetAllSoldierFromEmptyList()'><b>checkGetAllSoldierFromEmptyList</b><br>Test class: ru.sportmaster.testng.GetAllSoldierEmpty</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllSoldierEmpty@411cd156</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.AddSurvivor.testAddMultipleSurvivors()'><b>testAddMultipleSurvivors</b><br>Test class: ru.sportmaster.testng.AddSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.AddSurvivor@691124ee</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.CalculateFoodDays.testCalculateFoodDays_EnoughFood()'><b>testCalculateFoodDays_EnoughFood</b><br>Test class: ru.sportmaster.testng.CalculateFoodDays</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.CalculateFoodDays@577536e0</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetResourceWithLowestStock.testGetResourceWithLowestStock_CustomResources()'><b>testGetResourceWithLowestStock_CustomResources</b><br>Test class: ru.sportmaster.testng.GetResourceWithLowestStock</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetResourceWithLowestStock@61cda923</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllWorkerEmpty.checkGetAllWorkerFromEmptyList()'><b>checkGetAllWorkerFromEmptyList</b><br>Test class: ru.sportmaster.testng.GetAllWorkerEmpty</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllWorkerEmpty@3e046e39</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.YoungestSurvivor.checkYoungestSurvivor()'><b>checkYoungestSurvivor</b><br>Test class: ru.sportmaster.testng.YoungestSurvivor<br>Parameters: [LcourseWork2.Survivor;@1002d1c8, Survivor{name='Alex Russo', age=3}</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.YoungestSurvivor@5f0a2638</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.YoungestSurvivor.checkYoungestSurvivor()'><b>checkYoungestSurvivor</b><br>Test class: ru.sportmaster.testng.YoungestSurvivor<br>Parameters: [LcourseWork2.Survivor;@7c8f803d, Survivor{name='Jane Smith', age=10}</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.YoungestSurvivor@5f0a2638</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.ReportResources.testGetResourcesReport_EmptyResources()'><b>testGetResourcesReport_EmptyResources</b><br>Test class: ru.sportmaster.testng.ReportResources</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.ReportResources@4262fdeb</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllMedic.checkGetAllMedic()'><b>checkGetAllMedic</b><br>Test class: ru.sportmaster.testng.GetAllMedic</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllMedic@4bc6da03</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers.testCollectMultiplyResources_WithWorkers()'><b>testCollectMultiplyResources_WithWorkers</b><br>Test class: ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers@52d3fafd</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.CollectMultiplyResources.testCollectMultiplyResources_WithScavengers()'><b>testCollectMultiplyResources_WithScavengers</b><br>Test class: ru.sportmaster.testng.CollectMultiplyResources</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.CollectMultiplyResources@12219f6a</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomCity.testGenerateRandomCity_SurvivorsAreValid()'><b>testGenerateRandomCity_SurvivorsAreValid</b><br>Test class: ru.sportmaster.testng.GenerateRandomCity</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomCity@1f736d00</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetResourceWithLowestStock.testGetResourceWithLowestStock_SingleResource()'><b>testGetResourceWithLowestStock_SingleResource</b><br>Test class: ru.sportmaster.testng.GetResourceWithLowestStock</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetResourceWithLowestStock@61cda923</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomSurvivor.testGenerateRandomSurvivor_AgeIsValid()'><b>testGenerateRandomSurvivor_AgeIsValid</b><br>Test class: ru.sportmaster.testng.GenerateRandomSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomSurvivor@718fd7c1</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.YoungestSurvivor.checkYoungestSurvivor()'><b>checkYoungestSurvivor</b><br>Test class: ru.sportmaster.testng.YoungestSurvivor<br>Parameters: [LcourseWork2.Survivor;@52963839, Survivor{name='Baby', age=0}</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.YoungestSurvivor@5f0a2638</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomResources.testGenerateRandomResources_MultipleCalls()'><b>testGenerateRandomResources_MultipleCalls</b><br>Test class: ru.sportmaster.testng.GenerateRandomResources</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomResources@523a7801</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomCity.testGenerateRandomCity_EmptyCity()'><b>testGenerateRandomCity_EmptyCity</b><br>Test class: ru.sportmaster.testng.GenerateRandomCity</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomCity@1f736d00</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.OldestSurvivor.checkOldestSurvivor()'><b>checkOldestSurvivor</b><br>Test class: ru.sportmaster.testng.OldestSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.OldestSurvivor@46fc522d</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.ReportResources.testGetResourcesReport_SingleResource()'><b>testGetResourcesReport_SingleResource</b><br>Test class: ru.sportmaster.testng.ReportResources</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.ReportResources@4262fdeb</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.AddSurvivor.testAddSurvivor()'><b>testAddSurvivor</b><br>Test class: ru.sportmaster.testng.AddSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.AddSurvivor@691124ee</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.AddSurvivor.testAddNullSurvivor()'><b>testAddNullSurvivor</b><br>Test class: ru.sportmaster.testng.AddSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.AddSurvivor@691124ee</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.CalculateFoodDays.testCalculateFoodDays_NoFood()'><b>testCalculateFoodDays_NoFood</b><br>Test class: ru.sportmaster.testng.CalculateFoodDays</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.CalculateFoodDays@577536e0</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetResourceWithLowestStock.testGetResourceWithLowestStock_AllResourcesEqual()'><b>testGetResourceWithLowestStock_AllResourcesEqual</b><br>Test class: ru.sportmaster.testng.GetResourceWithLowestStock</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetResourceWithLowestStock@61cda923</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllMedicEmpty.checkGetAllMedicFromEmptyList()'><b>checkGetAllMedicFromEmptyList</b><br>Test class: ru.sportmaster.testng.GetAllMedicEmpty</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllMedicEmpty@4f59a516</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomResources.testGenerateRandomResources_ResourcesAreGenerated()'><b>testGenerateRandomResources_ResourcesAreGenerated</b><br>Test class: ru.sportmaster.testng.GenerateRandomResources</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomResources@523a7801</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllWorker.checkGetAllWorkerNoWorker()'><b>checkGetAllWorkerNoWorker</b><br>Test class: ru.sportmaster.testng.GetAllWorker</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllWorker@3c770db4</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.OldestSurvivor.checkOldestSurvivorSingleSurvivor()'><b>checkOldestSurvivorSingleSurvivor</b><br>Test class: ru.sportmaster.testng.OldestSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.OldestSurvivor@46fc522d</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.CollectResourcesCertainScavengers.testCollectResources_WithWorkers()'><b>testCollectResources_WithWorkers</b><br>Test class: ru.sportmaster.testng.CollectResourcesCertainScavengers</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.CollectResourcesCertainScavengers@1376883</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllWorker.checkGetAllWorker()'><b>checkGetAllWorker</b><br>Test class: ru.sportmaster.testng.GetAllWorker</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllWorker@3c770db4</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomSurvivor.testGenerateRandomSurvivor_NameIsValid()'><b>testGenerateRandomSurvivor_NameIsValid</b><br>Test class: ru.sportmaster.testng.GenerateRandomSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomSurvivor@718fd7c1</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomCity.testGenerateRandomCity_MultipleSurvivors()'><b>testGenerateRandomCity_MultipleSurvivors</b><br>Test class: ru.sportmaster.testng.GenerateRandomCity</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomCity@1f736d00</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllSoldier.checkGetAllSoldierNoSoldier()'><b>checkGetAllSoldierNoSoldier</b><br>Test class: ru.sportmaster.testng.GetAllSoldier</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllSoldier@4e22368c</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.YoungestSurvivor.checkYoungestSurvivorSingleSurvivor()'><b>checkYoungestSurvivorSingleSurvivor</b><br>Test class: ru.sportmaster.testng.YoungestSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.YoungestSurvivor@5f0a2638</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomCity.testGenerateRandomCity_SingleSurvivor()'><b>testGenerateRandomCity_SingleSurvivor</b><br>Test class: ru.sportmaster.testng.GenerateRandomCity</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomCity@1f736d00</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.OldestSurvivor.checkOldestSurvivorEmptyList()'><b>checkOldestSurvivorEmptyList</b><br>Test class: ru.sportmaster.testng.OldestSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.OldestSurvivor@46fc522d</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetResourceWithLowestStock.testGetResourceWithLowestStock_MultipleResources()'><b>testGetResourceWithLowestStock_MultipleResources</b><br>Test class: ru.sportmaster.testng.GetResourceWithLowestStock</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetResourceWithLowestStock@61cda923</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GetAllMedic.checkGetAllMedicNoMedic()'><b>checkGetAllMedicNoMedic</b><br>Test class: ru.sportmaster.testng.GetAllMedic</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GetAllMedic@4bc6da03</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.ReportResources.testGetResourcesReport_MultipleResources()'><b>testGetResourcesReport_MultipleResources</b><br>Test class: ru.sportmaster.testng.ReportResources</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.ReportResources@4262fdeb</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.GenerateRandomSurvivor.testGenerateRandomSurvivor_RoleIsValid()'><b>testGenerateRandomSurvivor_RoleIsValid</b><br>Test class: ru.sportmaster.testng.GenerateRandomSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.GenerateRandomSurvivor@718fd7c1</td></tr>
+<tr>
+<td title='ru.sportmaster.testng.YoungestSurvivor.checkYoungestSurvivorEmptyList()'><b>checkYoungestSurvivorEmptyList</b><br>Test class: ru.sportmaster.testng.YoungestSurvivor</td>
+<td></td>
+<td>0</td>
+<td>ru.sportmaster.testng.YoungestSurvivor@5f0a2638</td></tr>
+</table><p>
+</body>
+</html>

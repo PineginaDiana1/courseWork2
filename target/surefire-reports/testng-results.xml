@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="44" passed="44" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T16:59:07 MSK" name="Тестовый набор для регресса" finished-at="2025-02-25T16:59:08 MSK" duration-ms="1018">
+    <groups>
+    </groups>
+    <test started-at="2025-02-25T16:59:07 MSK" name="Регресс" finished-at="2025-02-25T16:59:08 MSK" duration-ms="1018">
+      <class name="ru.sportmaster.testng.GetAllSoldierEmpty">
+        <test-method signature="checkGetAllSoldierFromEmptyList()[pri:0, instance:ru.sportmaster.testng.GetAllSoldierEmpty@411cd156]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllSoldierFromEmptyList" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllSoldierFromEmptyList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllSoldierEmpty@411cd156]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.GetAllSoldierEmpty -->
+      <class name="ru.sportmaster.testng.AddSurvivorNull">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.AddSurvivorNull@5ae15]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddNullSurvivor()[pri:0, instance:ru.sportmaster.testng.AddSurvivorNull@5ae15]" started-at="2025-02-25T16:59:08 MSK" name="testAddNullSurvivor" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNullSurvivor -->
+      </class> <!-- ru.sportmaster.testng.AddSurvivorNull -->
+      <class name="ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers">
+        <test-method signature="testCollectMultiplyResources_WithWorkers()[pri:0, instance:ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers@52d3fafd]" started-at="2025-02-25T16:59:08 MSK" name="testCollectMultiplyResources_WithWorkers" finished-at="2025-02-25T16:59:08 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectMultiplyResources_WithWorkers -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers@52d3fafd]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers -->
+      <class name="ru.sportmaster.testng.GenerateRandomSurvivor">
+        <test-method signature="testGenerateRandomSurvivor_AgeIsValid()[pri:0, instance:ru.sportmaster.testng.GenerateRandomSurvivor@718fd7c1]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomSurvivor_AgeIsValid" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomSurvivor_AgeIsValid -->
+        <test-method signature="testGenerateRandomSurvivor_NameIsValid()[pri:0, instance:ru.sportmaster.testng.GenerateRandomSurvivor@718fd7c1]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomSurvivor_NameIsValid" finished-at="2025-02-25T16:59:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomSurvivor_NameIsValid -->
+        <test-method signature="testGenerateRandomSurvivor_RoleIsValid()[pri:0, instance:ru.sportmaster.testng.GenerateRandomSurvivor@718fd7c1]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomSurvivor_RoleIsValid" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomSurvivor_RoleIsValid -->
+      </class> <!-- ru.sportmaster.testng.GenerateRandomSurvivor -->
+      <class name="ru.sportmaster.testng.CollectResources">
+        <test-method signature="testCollectResources_WithScavengers()[pri:0, instance:ru.sportmaster.testng.CollectResources@7f0b93b4]" started-at="2025-02-25T16:59:08 MSK" name="testCollectResources_WithScavengers" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectResources_WithScavengers -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.CollectResources@7f0b93b4]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.CollectResources -->
+      <class name="ru.sportmaster.testng.CollectMultiplyResources">
+        <test-method signature="testCollectMultiplyResources_WithScavengers()[pri:0, instance:ru.sportmaster.testng.CollectMultiplyResources@12219f6a]" started-at="2025-02-25T16:59:08 MSK" name="testCollectMultiplyResources_WithScavengers" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectMultiplyResources_WithScavengers -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.CollectMultiplyResources@12219f6a]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.CollectMultiplyResources -->
+      <class name="ru.sportmaster.testng.GetAllSoldier">
+        <test-method signature="checkGetAllSoldier()[pri:0, instance:ru.sportmaster.testng.GetAllSoldier@4e22368c]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllSoldier" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllSoldier -->
+        <test-method signature="checkGetAllSoldierNoSoldier()[pri:0, instance:ru.sportmaster.testng.GetAllSoldier@4e22368c]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllSoldierNoSoldier" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllSoldierNoSoldier -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllSoldier@4e22368c]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllSoldier@4e22368c]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.GetAllSoldier -->
+      <class name="ru.sportmaster.testng.CalculateFoodDays">
+        <test-method signature="testCalculateFoodDays_EnoughFood()[pri:0, instance:ru.sportmaster.testng.CalculateFoodDays@577536e0]" started-at="2025-02-25T16:59:08 MSK" name="testCalculateFoodDays_EnoughFood" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateFoodDays_EnoughFood -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.CalculateFoodDays@577536e0]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCalculateFoodDays_NoFood()[pri:0, instance:ru.sportmaster.testng.CalculateFoodDays@577536e0]" started-at="2025-02-25T16:59:08 MSK" name="testCalculateFoodDays_NoFood" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateFoodDays_NoFood -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.CalculateFoodDays@577536e0]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.CalculateFoodDays -->
+      <class name="ru.sportmaster.testng.GenerateRandomCity">
+        <test-method signature="testGenerateRandomCity_EmptyCity()[pri:0, instance:ru.sportmaster.testng.GenerateRandomCity@1f736d00]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomCity_EmptyCity" finished-at="2025-02-25T16:59:08 MSK" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomCity_EmptyCity -->
+        <test-method signature="testGenerateRandomCity_MultipleSurvivors()[pri:0, instance:ru.sportmaster.testng.GenerateRandomCity@1f736d00]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomCity_MultipleSurvivors" finished-at="2025-02-25T16:59:08 MSK" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomCity_MultipleSurvivors -->
+        <test-method signature="testGenerateRandomCity_SurvivorsAreValid()[pri:0, instance:ru.sportmaster.testng.GenerateRandomCity@1f736d00]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomCity_SurvivorsAreValid" finished-at="2025-02-25T16:59:08 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomCity_SurvivorsAreValid -->
+        <test-method signature="testGenerateRandomCity_SingleSurvivor()[pri:0, instance:ru.sportmaster.testng.GenerateRandomCity@1f736d00]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomCity_SingleSurvivor" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomCity_SingleSurvivor -->
+      </class> <!-- ru.sportmaster.testng.GenerateRandomCity -->
+      <class name="ru.sportmaster.testng.GetAllWorker">
+        <test-method signature="checkGetAllWorkerNoWorker()[pri:0, instance:ru.sportmaster.testng.GetAllWorker@3c770db4]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllWorkerNoWorker" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllWorkerNoWorker -->
+        <test-method signature="checkGetAllWorker()[pri:0, instance:ru.sportmaster.testng.GetAllWorker@3c770db4]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllWorker" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllWorker -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllWorker@3c770db4]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllWorker@3c770db4]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.GetAllWorker -->
+      <class name="ru.sportmaster.testng.GetAllWorkerEmpty">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllWorkerEmpty@3e046e39]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkGetAllWorkerFromEmptyList()[pri:0, instance:ru.sportmaster.testng.GetAllWorkerEmpty@3e046e39]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllWorkerFromEmptyList" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllWorkerFromEmptyList -->
+      </class> <!-- ru.sportmaster.testng.GetAllWorkerEmpty -->
+      <class name="ru.sportmaster.testng.CollectResourcesCertainScavengers">
+        <test-method signature="testCollectResources_WithWorkers()[pri:0, instance:ru.sportmaster.testng.CollectResourcesCertainScavengers@1376883]" started-at="2025-02-25T16:59:08 MSK" name="testCollectResources_WithWorkers" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectResources_WithWorkers -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.CollectResourcesCertainScavengers@1376883]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.CollectResourcesCertainScavengers -->
+      <class name="ru.sportmaster.testng.OldestSurvivor">
+        <test-method signature="checkOldestSurvivor()[pri:0, instance:ru.sportmaster.testng.OldestSurvivor@46fc522d]" started-at="2025-02-25T16:59:08 MSK" name="checkOldestSurvivor" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOldestSurvivor -->
+        <test-method signature="checkOldestSurvivorEmptyList()[pri:0, instance:ru.sportmaster.testng.OldestSurvivor@46fc522d]" started-at="2025-02-25T16:59:08 MSK" name="checkOldestSurvivorEmptyList" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOldestSurvivorEmptyList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.OldestSurvivor@46fc522d]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.OldestSurvivor@46fc522d]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkOldestSurvivorSingleSurvivor()[pri:0, instance:ru.sportmaster.testng.OldestSurvivor@46fc522d]" started-at="2025-02-25T16:59:08 MSK" name="checkOldestSurvivorSingleSurvivor" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOldestSurvivorSingleSurvivor -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.OldestSurvivor@46fc522d]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.OldestSurvivor -->
+      <class name="ru.sportmaster.testng.GetAllMedic">
+        <test-method signature="checkGetAllMedic()[pri:0, instance:ru.sportmaster.testng.GetAllMedic@4bc6da03]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllMedic" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllMedic -->
+        <test-method signature="checkGetAllMedicNoMedic()[pri:0, instance:ru.sportmaster.testng.GetAllMedic@4bc6da03]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllMedicNoMedic" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllMedicNoMedic -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllMedic@4bc6da03]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllMedic@4bc6da03]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.GetAllMedic -->
+      <class name="ru.sportmaster.testng.YoungestSurvivor">
+        <test-method signature="checkYoungestSurvivor([LcourseWork2.Survivor;,courseWork2.Survivor)[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="checkYoungestSurvivor" data-provider="survivorData" finished-at="2025-02-25T16:59:08 MSK" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LcourseWork2.Survivor;@1002d1c8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Survivor{name='Alex Russo', age=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYoungestSurvivor -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkYoungestSurvivor([LcourseWork2.Survivor;,courseWork2.Survivor)[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="checkYoungestSurvivor" data-provider="survivorData" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LcourseWork2.Survivor;@7c8f803d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Survivor{name='Jane Smith', age=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYoungestSurvivor -->
+        <test-method signature="checkYoungestSurvivor([LcourseWork2.Survivor;,courseWork2.Survivor)[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="checkYoungestSurvivor" data-provider="survivorData" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LcourseWork2.Survivor;@52963839]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Survivor{name='Baby', age=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYoungestSurvivor -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkYoungestSurvivor([LcourseWork2.Survivor;,courseWork2.Survivor)[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="checkYoungestSurvivor" data-provider="survivorData" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LcourseWork2.Survivor;@1734b1a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Survivor{name='Alex Russo', age=25}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYoungestSurvivor -->
+        <test-method signature="checkYoungestSurvivorSingleSurvivor()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="checkYoungestSurvivorSingleSurvivor" finished-at="2025-02-25T16:59:08 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYoungestSurvivorSingleSurvivor -->
+        <test-method signature="checkYoungestSurvivorEmptyList()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="checkYoungestSurvivorEmptyList" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYoungestSurvivorEmptyList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.YoungestSurvivor@5f0a2638]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.YoungestSurvivor -->
+      <class name="ru.sportmaster.testng.ReportResources">
+        <test-method signature="testGetResourcesReport_EmptyResources()[pri:0, instance:ru.sportmaster.testng.ReportResources@4262fdeb]" started-at="2025-02-25T16:59:08 MSK" name="testGetResourcesReport_EmptyResources" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourcesReport_EmptyResources -->
+        <test-method signature="testGetResourcesReport_SingleResource()[pri:0, instance:ru.sportmaster.testng.ReportResources@4262fdeb]" started-at="2025-02-25T16:59:08 MSK" name="testGetResourcesReport_SingleResource" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourcesReport_SingleResource -->
+        <test-method signature="testGetResourcesReport_MultipleResources()[pri:0, instance:ru.sportmaster.testng.ReportResources@4262fdeb]" started-at="2025-02-25T16:59:08 MSK" name="testGetResourcesReport_MultipleResources" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourcesReport_MultipleResources -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.ReportResources@4262fdeb]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.ReportResources@4262fdeb]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.ReportResources@4262fdeb]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.ReportResources -->
+      <class name="ru.sportmaster.testng.AddSurvivor">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.AddSurvivor@691124ee]" started-at="2025-02-25T16:59:07 MSK" name="setUp" finished-at="2025-02-25T16:59:07 MSK" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMultipleSurvivors()[pri:0, instance:ru.sportmaster.testng.AddSurvivor@691124ee]" started-at="2025-02-25T16:59:08 MSK" name="testAddMultipleSurvivors" finished-at="2025-02-25T16:59:08 MSK" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleSurvivors -->
+        <test-method signature="testAddNullSurvivor()[pri:0, instance:ru.sportmaster.testng.AddSurvivor@691124ee]" started-at="2025-02-25T16:59:08 MSK" name="testAddNullSurvivor" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNullSurvivor -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.AddSurvivor@691124ee]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSurvivor()[pri:0, instance:ru.sportmaster.testng.AddSurvivor@691124ee]" started-at="2025-02-25T16:59:08 MSK" name="testAddSurvivor" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSurvivor -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.AddSurvivor@691124ee]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.AddSurvivor -->
+      <class name="ru.sportmaster.testng.GetResourceWithLowestStock">
+        <test-method signature="testGetResourceWithLowestStock_CustomResources()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="testGetResourceWithLowestStock_CustomResources" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceWithLowestStock_CustomResources -->
+        <test-method signature="testGetResourceWithLowestStock_AllResourcesEqual()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="testGetResourceWithLowestStock_AllResourcesEqual" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceWithLowestStock_AllResourcesEqual -->
+        <test-method signature="testGetResourceWithLowestStock_MultipleResources()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="testGetResourceWithLowestStock_MultipleResources" finished-at="2025-02-25T16:59:08 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceWithLowestStock_MultipleResources -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetResourceWithLowestStock_SingleResource()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="testGetResourceWithLowestStock_SingleResource" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceWithLowestStock_SingleResource -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetResourceWithLowestStock@61cda923]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.GetResourceWithLowestStock -->
+      <class name="ru.sportmaster.testng.GetAllMedicEmpty">
+        <test-method signature="checkGetAllMedicFromEmptyList()[pri:0, instance:ru.sportmaster.testng.GetAllMedicEmpty@4f59a516]" started-at="2025-02-25T16:59:08 MSK" name="checkGetAllMedicFromEmptyList" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAllMedicFromEmptyList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GetAllMedicEmpty@4f59a516]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.GetAllMedicEmpty -->
+      <class name="ru.sportmaster.testng.GenerateRandomResources">
+        <test-method signature="testGenerateRandomResources_MultipleCalls()[pri:0, instance:ru.sportmaster.testng.GenerateRandomResources@523a7801]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomResources_MultipleCalls" finished-at="2025-02-25T16:59:08 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomResources_MultipleCalls -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GenerateRandomResources@523a7801]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGenerateRandomResources_ResourcesAreGenerated()[pri:0, instance:ru.sportmaster.testng.GenerateRandomResources@523a7801]" started-at="2025-02-25T16:59:08 MSK" name="testGenerateRandomResources_ResourcesAreGenerated" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateRandomResources_ResourcesAreGenerated -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ru.sportmaster.testng.GenerateRandomResources@523a7801]" started-at="2025-02-25T16:59:08 MSK" name="setUp" finished-at="2025-02-25T16:59:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- ru.sportmaster.testng.GenerateRandomResources -->
+    </test> <!-- Регресс -->
+  </suite> <!-- Тестовый набор для регресса -->
+</testng-results>

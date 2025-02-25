@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-___________________________" class="navigator-link">
+              <span class="suite-name border-passed">Тестовый набор для регресса</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-___________________________" class="navigator-link ">
+                    <span>C:\Users\DPinegina\IdeaProjects\courseWork2\src\test\resources\regress.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-___________________________" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-___________________________" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-___________________________" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-___________________________" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-___________________________" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-___________________________" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">44 methods,   44 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-___________________________" class="hide-methods passed suite-___________________________"> (hide)</a> <!-- hide-methods passed suite-___________________________ -->
+                      <a href="#" panel-name="suite-___________________________" class="show-methods passed suite-___________________________"> (show)</a> <!-- show-methods passed suite-___________________________ -->
+                    </span>
+                    <div class="method-list-content passed suite-___________________________">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllMedic" class="method navigator-link" hash-for-method="checkGetAllMedic">checkGetAllMedic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllMedicEmpty" class="method navigator-link" hash-for-method="checkGetAllMedicFromEmptyList">checkGetAllMedicFromEmptyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllMedic" class="method navigator-link" hash-for-method="checkGetAllMedicNoMedic">checkGetAllMedicNoMedic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllSoldier" class="method navigator-link" hash-for-method="checkGetAllSoldier">checkGetAllSoldier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllSoldierEmpty" class="method navigator-link" hash-for-method="checkGetAllSoldierFromEmptyList">checkGetAllSoldierFromEmptyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllSoldier" class="method navigator-link" hash-for-method="checkGetAllSoldierNoSoldier">checkGetAllSoldierNoSoldier</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllWorker" class="method navigator-link" hash-for-method="checkGetAllWorker">checkGetAllWorker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllWorkerEmpty" class="method navigator-link" hash-for-method="checkGetAllWorkerFromEmptyList">checkGetAllWorkerFromEmptyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetAllWorker" class="method navigator-link" hash-for-method="checkGetAllWorkerNoWorker">checkGetAllWorkerNoWorker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.OldestSurvivor" class="method navigator-link" hash-for-method="checkOldestSurvivor">checkOldestSurvivor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.OldestSurvivor" class="method navigator-link" hash-for-method="checkOldestSurvivorEmptyList">checkOldestSurvivorEmptyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.OldestSurvivor" class="method navigator-link" hash-for-method="checkOldestSurvivorSingleSurvivor">checkOldestSurvivorSingleSurvivor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.YoungestSurvivor" class="method navigator-link" hash-for-method="checkYoungestSurvivor([Survivor{name=&#039;Alex Russo&#039;, age=25}, Survivor{name=&#039;John Doe&#039;, age=25}, Survivor{name=&#039;John Snow&#039;, ...)">checkYoungestSurvivor([Survivor{name='Alex Russo', age=25}, Survivor{name='John Doe', age=25}, Survivor{name='John Snow', ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.YoungestSurvivor" class="method navigator-link" hash-for-method="checkYoungestSurvivor([Survivor{name=&#039;Alex Russo&#039;, age=3}, Survivor{name=&#039;John Doe&#039;, age=5}, Survivor{name=&#039;John Snow&#039;, ag...)">checkYoungestSurvivor([Survivor{name='Alex Russo', age=3}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', ag...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.YoungestSurvivor" class="method navigator-link" hash-for-method="checkYoungestSurvivor([Survivor{name=&#039;Jane Smith&#039;, age=10}, Survivor{name=&#039;Bob Johnson&#039;, age=20}, Survivor{name=&#039;Alice Bro...)">checkYoungestSurvivor([Survivor{name='Jane Smith', age=10}, Survivor{name='Bob Johnson', age=20}, Survivor{name='Alice Bro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.YoungestSurvivor" class="method navigator-link" hash-for-method="checkYoungestSurvivor([Survivor{name=&#039;Baby&#039;, age=0}, Survivor{name=&#039;John Doe&#039;, age=5}, Survivor{name=&#039;John Snow&#039;, age=30}]...)">checkYoungestSurvivor([Survivor{name='Baby', age=0}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', age=30}]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.YoungestSurvivor" class="method navigator-link" hash-for-method="checkYoungestSurvivorEmptyList">checkYoungestSurvivorEmptyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.YoungestSurvivor" class="method navigator-link" hash-for-method="checkYoungestSurvivorSingleSurvivor">checkYoungestSurvivorSingleSurvivor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.AddSurvivor" class="method navigator-link" hash-for-method="testAddMultipleSurvivors">testAddMultipleSurvivors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.AddSurvivorNull" class="method navigator-link" hash-for-method="testAddNullSurvivor">testAddNullSurvivor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.AddSurvivor" class="method navigator-link" hash-for-method="testAddNullSurvivor">testAddNullSurvivor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.AddSurvivor" class="method navigator-link" hash-for-method="testAddSurvivor">testAddSurvivor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.CalculateFoodDays" class="method navigator-link" hash-for-method="testCalculateFoodDays_EnoughFood">testCalculateFoodDays_EnoughFood</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.CalculateFoodDays" class="method navigator-link" hash-for-method="testCalculateFoodDays_NoFood">testCalculateFoodDays_NoFood</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.CollectMultiplyResources" class="method navigator-link" hash-for-method="testCollectMultiplyResources_WithScavengers">testCollectMultiplyResources_WithScavengers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers" class="method navigator-link" hash-for-method="testCollectMultiplyResources_WithWorkers">testCollectMultiplyResources_WithWorkers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.CollectResources" class="method navigator-link" hash-for-method="testCollectResources_WithScavengers">testCollectResources_WithScavengers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.CollectResourcesCertainScavengers" class="method navigator-link" hash-for-method="testCollectResources_WithWorkers">testCollectResources_WithWorkers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomCity" class="method navigator-link" hash-for-method="testGenerateRandomCity_EmptyCity">testGenerateRandomCity_EmptyCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomCity" class="method navigator-link" hash-for-method="testGenerateRandomCity_MultipleSurvivors">testGenerateRandomCity_MultipleSurvivors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomCity" class="method navigator-link" hash-for-method="testGenerateRandomCity_SingleSurvivor">testGenerateRandomCity_SingleSurvivor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomCity" class="method navigator-link" hash-for-method="testGenerateRandomCity_SurvivorsAreValid">testGenerateRandomCity_SurvivorsAreValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomResources" class="method navigator-link" hash-for-method="testGenerateRandomResources_MultipleCalls">testGenerateRandomResources_MultipleCalls</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomResources" class="method navigator-link" hash-for-method="testGenerateRandomResources_ResourcesAreGenerated">testGenerateRandomResources_ResourcesAreGenerated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomSurvivor" class="method navigator-link" hash-for-method="testGenerateRandomSurvivor_AgeIsValid">testGenerateRandomSurvivor_AgeIsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomSurvivor" class="method navigator-link" hash-for-method="testGenerateRandomSurvivor_NameIsValid">testGenerateRandomSurvivor_NameIsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GenerateRandomSurvivor" class="method navigator-link" hash-for-method="testGenerateRandomSurvivor_RoleIsValid">testGenerateRandomSurvivor_RoleIsValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetResourceWithLowestStock" class="method navigator-link" hash-for-method="testGetResourceWithLowestStock_AllResourcesEqual">testGetResourceWithLowestStock_AllResourcesEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetResourceWithLowestStock" class="method navigator-link" hash-for-method="testGetResourceWithLowestStock_CustomResources">testGetResourceWithLowestStock_CustomResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetResourceWithLowestStock" class="method navigator-link" hash-for-method="testGetResourceWithLowestStock_MultipleResources">testGetResourceWithLowestStock_MultipleResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.GetResourceWithLowestStock" class="method navigator-link" hash-for-method="testGetResourceWithLowestStock_SingleResource">testGetResourceWithLowestStock_SingleResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.ReportResources" class="method navigator-link" hash-for-method="testGetResourcesReport_EmptyResources">testGetResourcesReport_EmptyResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.ReportResources" class="method navigator-link" hash-for-method="testGetResourcesReport_MultipleResources">testGetResourcesReport_MultipleResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-___________________________" title="ru.sportmaster.testng.ReportResources" class="method navigator-link" hash-for-method="testGetResourcesReport_SingleResource">testGetResourcesReport_SingleResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-___________________________ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-___________________________" class="panel ___________________________">
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.CollectResourcesCertainScavengers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollectResources_WithWorkers">
+                  </a> <!-- testCollectResources_WithWorkers -->
+                  <span class="method-name">testCollectResources_WithWorkers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollectMultiplyResources_WithWorkers">
+                  </a> <!-- testCollectMultiplyResources_WithWorkers -->
+                  <span class="method-name">testCollectMultiplyResources_WithWorkers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.ReportResources</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResourcesReport_EmptyResources">
+                  </a> <!-- testGetResourcesReport_EmptyResources -->
+                  <span class="method-name">testGetResourcesReport_EmptyResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResourcesReport_MultipleResources">
+                  </a> <!-- testGetResourcesReport_MultipleResources -->
+                  <span class="method-name">testGetResourcesReport_MultipleResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResourcesReport_SingleResource">
+                  </a> <!-- testGetResourcesReport_SingleResource -->
+                  <span class="method-name">testGetResourcesReport_SingleResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GenerateRandomResources</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomResources_MultipleCalls">
+                  </a> <!-- testGenerateRandomResources_MultipleCalls -->
+                  <span class="method-name">testGenerateRandomResources_MultipleCalls</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomResources_ResourcesAreGenerated">
+                  </a> <!-- testGenerateRandomResources_ResourcesAreGenerated -->
+                  <span class="method-name">testGenerateRandomResources_ResourcesAreGenerated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GetAllWorker</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllWorker">
+                  </a> <!-- checkGetAllWorker -->
+                  <span class="method-name">checkGetAllWorker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllWorkerNoWorker">
+                  </a> <!-- checkGetAllWorkerNoWorker -->
+                  <span class="method-name">checkGetAllWorkerNoWorker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.CollectMultiplyResources</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollectMultiplyResources_WithScavengers">
+                  </a> <!-- testCollectMultiplyResources_WithScavengers -->
+                  <span class="method-name">testCollectMultiplyResources_WithScavengers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GetAllWorkerEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllWorkerFromEmptyList">
+                  </a> <!-- checkGetAllWorkerFromEmptyList -->
+                  <span class="method-name">checkGetAllWorkerFromEmptyList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GenerateRandomSurvivor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomSurvivor_AgeIsValid">
+                  </a> <!-- testGenerateRandomSurvivor_AgeIsValid -->
+                  <span class="method-name">testGenerateRandomSurvivor_AgeIsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomSurvivor_NameIsValid">
+                  </a> <!-- testGenerateRandomSurvivor_NameIsValid -->
+                  <span class="method-name">testGenerateRandomSurvivor_NameIsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomSurvivor_RoleIsValid">
+                  </a> <!-- testGenerateRandomSurvivor_RoleIsValid -->
+                  <span class="method-name">testGenerateRandomSurvivor_RoleIsValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.CalculateFoodDays</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalculateFoodDays_EnoughFood">
+                  </a> <!-- testCalculateFoodDays_EnoughFood -->
+                  <span class="method-name">testCalculateFoodDays_EnoughFood</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalculateFoodDays_NoFood">
+                  </a> <!-- testCalculateFoodDays_NoFood -->
+                  <span class="method-name">testCalculateFoodDays_NoFood</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GetAllSoldierEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllSoldierFromEmptyList">
+                  </a> <!-- checkGetAllSoldierFromEmptyList -->
+                  <span class="method-name">checkGetAllSoldierFromEmptyList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GetAllMedicEmpty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllMedicFromEmptyList">
+                  </a> <!-- checkGetAllMedicFromEmptyList -->
+                  <span class="method-name">checkGetAllMedicFromEmptyList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GenerateRandomCity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomCity_EmptyCity">
+                  </a> <!-- testGenerateRandomCity_EmptyCity -->
+                  <span class="method-name">testGenerateRandomCity_EmptyCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomCity_MultipleSurvivors">
+                  </a> <!-- testGenerateRandomCity_MultipleSurvivors -->
+                  <span class="method-name">testGenerateRandomCity_MultipleSurvivors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomCity_SingleSurvivor">
+                  </a> <!-- testGenerateRandomCity_SingleSurvivor -->
+                  <span class="method-name">testGenerateRandomCity_SingleSurvivor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerateRandomCity_SurvivorsAreValid">
+                  </a> <!-- testGenerateRandomCity_SurvivorsAreValid -->
+                  <span class="method-name">testGenerateRandomCity_SurvivorsAreValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GetAllSoldier</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllSoldier">
+                  </a> <!-- checkGetAllSoldier -->
+                  <span class="method-name">checkGetAllSoldier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllSoldierNoSoldier">
+                  </a> <!-- checkGetAllSoldierNoSoldier -->
+                  <span class="method-name">checkGetAllSoldierNoSoldier</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.CollectResources</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollectResources_WithScavengers">
+                  </a> <!-- testCollectResources_WithScavengers -->
+                  <span class="method-name">testCollectResources_WithScavengers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.OldestSurvivor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOldestSurvivor">
+                  </a> <!-- checkOldestSurvivor -->
+                  <span class="method-name">checkOldestSurvivor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOldestSurvivorEmptyList">
+                  </a> <!-- checkOldestSurvivorEmptyList -->
+                  <span class="method-name">checkOldestSurvivorEmptyList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOldestSurvivorSingleSurvivor">
+                  </a> <!-- checkOldestSurvivorSingleSurvivor -->
+                  <span class="method-name">checkOldestSurvivorSingleSurvivor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GetAllMedic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllMedic">
+                  </a> <!-- checkGetAllMedic -->
+                  <span class="method-name">checkGetAllMedic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAllMedicNoMedic">
+                  </a> <!-- checkGetAllMedicNoMedic -->
+                  <span class="method-name">checkGetAllMedicNoMedic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.GetResourceWithLowestStock</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResourceWithLowestStock_AllResourcesEqual">
+                  </a> <!-- testGetResourceWithLowestStock_AllResourcesEqual -->
+                  <span class="method-name">testGetResourceWithLowestStock_AllResourcesEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResourceWithLowestStock_CustomResources">
+                  </a> <!-- testGetResourceWithLowestStock_CustomResources -->
+                  <span class="method-name">testGetResourceWithLowestStock_CustomResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResourceWithLowestStock_MultipleResources">
+                  </a> <!-- testGetResourceWithLowestStock_MultipleResources -->
+                  <span class="method-name">testGetResourceWithLowestStock_MultipleResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResourceWithLowestStock_SingleResource">
+                  </a> <!-- testGetResourceWithLowestStock_SingleResource -->
+                  <span class="method-name">testGetResourceWithLowestStock_SingleResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.AddSurvivorNull</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNullSurvivor">
+                  </a> <!-- testAddNullSurvivor -->
+                  <span class="method-name">testAddNullSurvivor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.YoungestSurvivor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkYoungestSurvivor([Survivor{name=&#039;Alex Russo&#039;, age=25}, Survivor{name=&#039;John Doe&#039;, age=25}, Survivor{name=&#039;John Snow&#039;, ...)">
+                  </a> <!-- checkYoungestSurvivor([Survivor{name='Alex Russo', age=25}, Survivor{name='John Doe', age=25}, Survivor{name='John Snow', ...) -->
+                  <span class="method-name">checkYoungestSurvivor</span>
+                  <span class="parameters">([Survivor{name='Alex Russo', age=25}, Survivor{name='John Doe', age=25}, Survivor{name='John Snow', age=25}],Survivor{name='Alex Russo', age=25})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkYoungestSurvivor([Survivor{name=&#039;Alex Russo&#039;, age=3}, Survivor{name=&#039;John Doe&#039;, age=5}, Survivor{name=&#039;John Snow&#039;, ag...)">
+                  </a> <!-- checkYoungestSurvivor([Survivor{name='Alex Russo', age=3}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', ag...) -->
+                  <span class="method-name">checkYoungestSurvivor</span>
+                  <span class="parameters">([Survivor{name='Alex Russo', age=3}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', age=30}],Survivor{name='Alex Russo', age=3})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkYoungestSurvivor([Survivor{name=&#039;Jane Smith&#039;, age=10}, Survivor{name=&#039;Bob Johnson&#039;, age=20}, Survivor{name=&#039;Alice Bro...)">
+                  </a> <!-- checkYoungestSurvivor([Survivor{name='Jane Smith', age=10}, Survivor{name='Bob Johnson', age=20}, Survivor{name='Alice Bro...) -->
+                  <span class="method-name">checkYoungestSurvivor</span>
+                  <span class="parameters">([Survivor{name='Jane Smith', age=10}, Survivor{name='Bob Johnson', age=20}, Survivor{name='Alice Brown', age=15}],Survivor{name='Jane Smith', age=10})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkYoungestSurvivor([Survivor{name=&#039;Baby&#039;, age=0}, Survivor{name=&#039;John Doe&#039;, age=5}, Survivor{name=&#039;John Snow&#039;, age=30}]...)">
+                  </a> <!-- checkYoungestSurvivor([Survivor{name='Baby', age=0}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', age=30}]...) -->
+                  <span class="method-name">checkYoungestSurvivor</span>
+                  <span class="parameters">([Survivor{name='Baby', age=0}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', age=30}],Survivor{name='Baby', age=0})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkYoungestSurvivorEmptyList">
+                  </a> <!-- checkYoungestSurvivorEmptyList -->
+                  <span class="method-name">checkYoungestSurvivorEmptyList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkYoungestSurvivorSingleSurvivor">
+                  </a> <!-- checkYoungestSurvivorSingleSurvivor -->
+                  <span class="method-name">checkYoungestSurvivorSingleSurvivor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+          <div class="suite-___________________________-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ru.sportmaster.testng.AddSurvivor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddMultipleSurvivors">
+                  </a> <!-- testAddMultipleSurvivors -->
+                  <span class="method-name">testAddMultipleSurvivors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNullSurvivor">
+                  </a> <!-- testAddNullSurvivor -->
+                  <span class="method-name">testAddNullSurvivor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddSurvivor">
+                  </a> <!-- testAddSurvivor -->
+                  <span class="method-name">testAddSurvivor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-___________________________-class-passed -->
+        </div> <!-- panel ___________________________ -->
+        <div panel-name="test-xml-___________________________" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DPinegina\IdeaProjects\courseWork2\src\test\resources\regress.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Тестовый набор для регресса&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Регресс&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.AddSurvivor&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.AddSurvivorNull&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.CalculateFoodDays&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.CollectMultiplyResources&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.CollectResources&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.CollectResourcesCertainScavengers&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GenerateRandomCity&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GenerateRandomResources&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GenerateRandomSurvivor&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GetAllMedic&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GetAllMedicEmpty&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GetAllSoldier&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GetAllSoldierEmpty&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GetAllWorker&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GetAllWorkerEmpty&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.GetResourceWithLowestStock&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.OldestSurvivor&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.ReportResources&quot;/&gt;
+      &lt;class name=&quot;ru.sportmaster.testng.YoungestSurvivor&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Регресс --&gt;
+&lt;/suite&gt; &lt;!-- Тестовый набор для регресса --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-___________________________" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Тестовый набор для регресса</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Регресс (20 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-___________________________" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Тестовый набор для регресса</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-___________________________" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Тестовый набор для регресса</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData____________________________');
+function tableData____________________________() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(44);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddMultipleSurvivors')
+data.setCell(0, 2, 'ru.sportmaster.testng.AddSurvivor')
+data.setCell(0, 3, 269);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGenerateRandomCity_MultipleSurvivors')
+data.setCell(1, 2, 'ru.sportmaster.testng.GenerateRandomCity')
+data.setCell(1, 3, 148);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGenerateRandomCity_EmptyCity')
+data.setCell(2, 2, 'ru.sportmaster.testng.GenerateRandomCity')
+data.setCell(2, 3, 63);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkYoungestSurvivor')
+data.setCell(3, 2, 'ru.sportmaster.testng.YoungestSurvivor')
+data.setCell(3, 3, 38);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCollectMultiplyResources_WithWorkers')
+data.setCell(4, 2, 'ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers')
+data.setCell(4, 3, 16);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGenerateRandomResources_MultipleCalls')
+data.setCell(5, 2, 'ru.sportmaster.testng.GenerateRandomResources')
+data.setCell(5, 3, 16);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkYoungestSurvivorSingleSurvivor')
+data.setCell(6, 2, 'ru.sportmaster.testng.YoungestSurvivor')
+data.setCell(6, 3, 16);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetResourceWithLowestStock_MultipleResources')
+data.setCell(7, 2, 'ru.sportmaster.testng.GetResourceWithLowestStock')
+data.setCell(7, 3, 16);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGenerateRandomCity_SurvivorsAreValid')
+data.setCell(8, 2, 'ru.sportmaster.testng.GenerateRandomCity')
+data.setCell(8, 3, 15);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGenerateRandomSurvivor_NameIsValid')
+data.setCell(9, 2, 'ru.sportmaster.testng.GenerateRandomSurvivor')
+data.setCell(9, 3, 7);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkYoungestSurvivor')
+data.setCell(10, 2, 'ru.sportmaster.testng.YoungestSurvivor')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAddNullSurvivor')
+data.setCell(11, 2, 'ru.sportmaster.testng.AddSurvivorNull')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCollectResources_WithScavengers')
+data.setCell(12, 2, 'ru.sportmaster.testng.CollectResources')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkGetAllSoldier')
+data.setCell(13, 2, 'ru.sportmaster.testng.GetAllSoldier')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkGetAllSoldierFromEmptyList')
+data.setCell(14, 2, 'ru.sportmaster.testng.GetAllSoldierEmpty')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCalculateFoodDays_EnoughFood')
+data.setCell(15, 2, 'ru.sportmaster.testng.CalculateFoodDays')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testGetResourceWithLowestStock_CustomResources')
+data.setCell(16, 2, 'ru.sportmaster.testng.GetResourceWithLowestStock')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkGetAllWorkerFromEmptyList')
+data.setCell(17, 2, 'ru.sportmaster.testng.GetAllWorkerEmpty')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkYoungestSurvivor')
+data.setCell(18, 2, 'ru.sportmaster.testng.YoungestSurvivor')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetResourcesReport_EmptyResources')
+data.setCell(19, 2, 'ru.sportmaster.testng.ReportResources')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkGetAllMedic')
+data.setCell(20, 2, 'ru.sportmaster.testng.GetAllMedic')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCollectMultiplyResources_WithScavengers')
+data.setCell(21, 2, 'ru.sportmaster.testng.CollectMultiplyResources')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGetResourceWithLowestStock_SingleResource')
+data.setCell(22, 2, 'ru.sportmaster.testng.GetResourceWithLowestStock')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testGenerateRandomSurvivor_AgeIsValid')
+data.setCell(23, 2, 'ru.sportmaster.testng.GenerateRandomSurvivor')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkYoungestSurvivor')
+data.setCell(24, 2, 'ru.sportmaster.testng.YoungestSurvivor')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkOldestSurvivor')
+data.setCell(25, 2, 'ru.sportmaster.testng.OldestSurvivor')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testGetResourcesReport_SingleResource')
+data.setCell(26, 2, 'ru.sportmaster.testng.ReportResources')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testAddSurvivor')
+data.setCell(27, 2, 'ru.sportmaster.testng.AddSurvivor')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testAddNullSurvivor')
+data.setCell(28, 2, 'ru.sportmaster.testng.AddSurvivor')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCalculateFoodDays_NoFood')
+data.setCell(29, 2, 'ru.sportmaster.testng.CalculateFoodDays')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testGetResourceWithLowestStock_AllResourcesEqual')
+data.setCell(30, 2, 'ru.sportmaster.testng.GetResourceWithLowestStock')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkGetAllMedicFromEmptyList')
+data.setCell(31, 2, 'ru.sportmaster.testng.GetAllMedicEmpty')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testGenerateRandomResources_ResourcesAreGenerated')
+data.setCell(32, 2, 'ru.sportmaster.testng.GenerateRandomResources')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'checkGetAllWorkerNoWorker')
+data.setCell(33, 2, 'ru.sportmaster.testng.GetAllWorker')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkOldestSurvivorSingleSurvivor')
+data.setCell(34, 2, 'ru.sportmaster.testng.OldestSurvivor')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCollectResources_WithWorkers')
+data.setCell(35, 2, 'ru.sportmaster.testng.CollectResourcesCertainScavengers')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'checkGetAllWorker')
+data.setCell(36, 2, 'ru.sportmaster.testng.GetAllWorker')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkGetAllSoldierNoSoldier')
+data.setCell(37, 2, 'ru.sportmaster.testng.GetAllSoldier')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testGenerateRandomCity_SingleSurvivor')
+data.setCell(38, 2, 'ru.sportmaster.testng.GenerateRandomCity')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkOldestSurvivorEmptyList')
+data.setCell(39, 2, 'ru.sportmaster.testng.OldestSurvivor')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'checkGetAllMedicNoMedic')
+data.setCell(40, 2, 'ru.sportmaster.testng.GetAllMedic')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testGetResourcesReport_MultipleResources')
+data.setCell(41, 2, 'ru.sportmaster.testng.ReportResources')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGenerateRandomSurvivor_RoleIsValid')
+data.setCell(42, 2, 'ru.sportmaster.testng.GenerateRandomSurvivor')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'checkYoungestSurvivorEmptyList')
+data.setCell(43, 2, 'ru.sportmaster.testng.YoungestSurvivor')
+data.setCell(43, 3, 0);
+window.suiteTableData['___________________________']= { tableData: data, tableDiv: 'times-div-___________________________'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 604 ms</span>
+              <div id="times-div-___________________________">
+              </div> <!-- times-div-___________________________ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-___________________________" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Тестовый набор для регресса</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-___________________________" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-___________________________" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.AddSurvivor</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddMultipleSurvivors</span>
+                <span class="method-start">146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddNullSurvivor</span>
+                <span class="method-start">431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddSurvivor</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.AddSurvivorNull</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.AddSurvivor</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">446 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.AddSurvivorNull</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddNullSurvivor</span>
+                <span class="method-start">462 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CalculateFoodDays</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCalculateFoodDays_EnoughFood</span>
+                <span class="method-start">462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCalculateFoodDays_NoFood</span>
+                <span class="method-start">478 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCollectMultiplyResources_WithWorkers</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CollectMultiplyResources</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCollectMultiplyResources_WithScavengers</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CollectMultiplyResourcesCertainScavengers</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CollectResources</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CollectResourcesCertainScavengers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCollectResources_WithWorkers</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CollectResources</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCollectResources_WithScavengers</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.CollectResourcesCertainScavengers</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GenerateRandomCity</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomCity_EmptyCity</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomCity_MultipleSurvivors</span>
+                <span class="method-start">584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomCity_SurvivorsAreValid</span>
+                <span class="method-start">732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomCity_SingleSurvivor</span>
+                <span class="method-start">732 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GenerateRandomResources</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomResources_MultipleCalls</span>
+                <span class="method-start">747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomResources_ResourcesAreGenerated</span>
+                <span class="method-start">763 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GenerateRandomSurvivor</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomSurvivor_NameIsValid</span>
+                <span class="method-start">778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomSurvivor_AgeIsValid</span>
+                <span class="method-start">778 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllMedic</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllMedic</span>
+                <span class="method-start">785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllMedicNoMedic</span>
+                <span class="method-start">785 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GenerateRandomSurvivor</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGenerateRandomSurvivor_RoleIsValid</span>
+                <span class="method-start">785 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllMedicEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllSoldier</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllSoldier</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllMedicEmpty</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllMedicFromEmptyList</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllSoldier</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllSoldierNoSoldier</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllSoldierEmpty</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllSoldierFromEmptyList</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllWorkerEmpty</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllWorker</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllWorkerNoWorker</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllWorker</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetResourceWithLowestStock</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetResourceWithLowestStock_CustomResources</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetAllWorkerEmpty</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetAllWorkerFromEmptyList</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetResourceWithLowestStock</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetResourceWithLowestStock_MultipleResources</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetResourceWithLowestStock_AllResourcesEqual</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">848 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.OldestSurvivor</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">848 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.GetResourceWithLowestStock</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetResourceWithLowestStock_SingleResource</span>
+                <span class="method-start">848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.OldestSurvivor</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOldestSurvivor</span>
+                <span class="method-start">848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOldestSurvivorEmptyList</span>
+                <span class="method-start">848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.ReportResources</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetResourcesReport_EmptyResources</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetResourcesReport_SingleResource</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.OldestSurvivor</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOldestSurvivorSingleSurvivor</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.ReportResources</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetResourcesReport_MultipleResources</span>
+                <span class="method-start">863 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ru.sportmaster.testng.YoungestSurvivor</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkYoungestSurvivor([Survivor{name='Alex Russo', age=3}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', ag...)</span>
+                <span class="method-start">879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkYoungestSurvivor([Survivor{name='Jane Smith', age=10}, Survivor{name='Bob Johnson', age=20}, Survivor{name='Alice Bro...)</span>
+                <span class="method-start">917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkYoungestSurvivor([Survivor{name='Baby', age=0}, Survivor{name='John Doe', age=5}, Survivor{name='John Snow', age=30}]...)</span>
+                <span class="method-start">917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkYoungestSurvivorEmptyList</span>
+                <span class="method-start">932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkYoungestSurvivor([Survivor{name='Alex Russo', age=25}, Survivor{name='John Doe', age=25}, Survivor{name='John Snow', ...)</span>
+                <span class="method-start">932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkYoungestSurvivorSingleSurvivor</span>
+                <span class="method-start">932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">932 ms</span>
+              </div> <!-- configuration-method before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
